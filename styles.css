@@ -12,7 +12,9 @@
 }
 
 .planet1 {
-    fill:#ff9900;
+    fill: #ff9900;
+    animation: rot1 3s infinite linear;
+
 }
 
 .planet2 {
@@ -38,3 +40,20 @@
 .planet7 {
     fill:#00ffcc;
 }
+
+@keyframes rot1 {
+from {
+    transform: rotate(0deg)
+    translate(100px)
+    rotate(0deg);
+}
+to {
+    transform: rotate(360deg)
+    translate(100px)
+    rotate(-360deg);
+}
+}
+
+
+
+
