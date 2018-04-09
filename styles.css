@@ -1,0 +1,16 @@
+.background {
+    background-color:#000000;
+}
+
+.orbits {
+    fill:#000000;
+    stroke:#ffffff;
+}
+
+.sun{
+    fill:#ffff4d;
+}
+
+.planet {
+    fill:#ffffff;
+}
