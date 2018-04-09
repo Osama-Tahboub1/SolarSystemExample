@@ -19,26 +19,32 @@
 
 .planet2 {
     fill:#ccff99;
+    animation: rot2 3s infinite linear;
 }
 
 .planet3 {
     fill:#ff3300;
+    animation: rot3 3s infinite linear;
 }
 
 .planet4 {
     fill:#ffcc99;
+    animation: rot4 3s infinite linear;
 }
 
 .planet5 {
     fill:#ffe6cc;
+    animation: rot5 3s infinite linear;
 }
 
 .planet6 {
-    fill:#0066ff
+    fill:#0066ff;
+    animation: rot6 3s infinite linear;
 }
 
 .planet7 {
     fill:#00ffcc;
+    animation: rot7 3s infinite linear;
 }
 
 @keyframes rot1 {
@@ -53,6 +59,85 @@ to {
     rotate(-360deg);
 }
 }
+
+@keyframes rot2 {
+    from {
+        transform: rotate(0deg)
+        translate(150px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(150px)
+        rotate(-360deg);
+    }
+}
+
+@keyframes rot3 {
+    from {
+        transform: rotate(0deg)
+        translate(200px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(200px)
+        rotate(-360deg);
+    }
+}
+
+@keyframes rot4 {
+    from {
+        transform: rotate(0deg)
+        translate(275px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(275px)
+        rotate(-360deg);
+    }
+}
+
+@keyframes rot5 {
+    from {
+        transform: rotate(0deg)
+        translate(350px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(350px)
+        rotate(-360deg);
+    }
+}
+
+@keyframes rot6 {
+    from {
+        transform: rotate(0deg)
+        translate(400px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(400px)
+        rotate(-360deg);
+    }
+}
+
+@keyframes rot7 {
+    from {
+        transform: rotate(0deg)
+        translate(450px)
+        rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+        translate(450px)
+        rotate(-360deg);
+    }
+}
+
 
 
 
