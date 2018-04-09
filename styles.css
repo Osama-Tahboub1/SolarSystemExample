@@ -13,38 +13,38 @@
 
 .planet1 {
     fill: #ff9900;
-    animation: rot1 3s infinite linear;
+    animation: rot1 5s infinite linear;
 
 }
 
 .planet2 {
     fill:#ccff99;
-    animation: rot2 3s infinite linear;
+    animation: rot2 10s infinite linear;
 }
 
 .planet3 {
     fill:#ff3300;
-    animation: rot3 3s infinite linear;
+    animation: rot3 8s infinite linear;
 }
 
 .planet4 {
     fill:#ffcc99;
-    animation: rot4 3s infinite linear;
+    animation: rot4 11s infinite linear;
 }
 
 .planet5 {
     fill:#ffe6cc;
-    animation: rot5 3s infinite linear;
+    animation: rot5 18s infinite linear;
 }
 
 .planet6 {
     fill:#0066ff;
-    animation: rot6 3s infinite linear;
+    animation: rot6 21s infinite linear;
 }
 
 .planet7 {
     fill:#00ffcc;
-    animation: rot7 3s infinite linear;
+    animation: rot7 25s infinite linear;
 }
 
 @keyframes rot1 {
